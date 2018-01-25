@@ -1,0 +1,96 @@
+/* NavBar */
+nav.navbar {
+    background: #ffffff;
+    color: rgb(70, 70, 70);
+    border-bottom-color: rgb(212, 212, 212);
+    border-radius: 0;
+    padding: 15px 0;
+}
+nav.navbar .navbar-collapse {
+    text-align: center;
+    border: none;
+}
+nav.navbar .navbar-nav{
+    display: inline-block;
+    float: none;
+}
+nav.navbar a.navbar-brand {
+    color: #000;
+    font-weight: 600;
+}
+nav.navbar a.navbar-brand:hover,
+nav.navbar a.navbar-brand:focus {
+    color: #000;
+}
+nav.navbar ul.navbar-nav {
+    border: none;
+}
+nav.navbar ul.navbar-nav a {
+    color: #000;
+}
+nav.navbar ul.navbar-nav a:hover,
+nav.navbar ul.navbar-nav a:focus {
+    background-color: #fff;
+    color: #000;
+}
+nav.navbar form.navbar-form{
+    float:left;
+}
+nav.navbar form.navbar-form input {
+    border-radius: 0 ;
+    border-color:rgb(230, 230, 230);
+    background: none;
+    color: #fff;
+    font-weight: 300;
+}
+nav.navbar form.navbar-form button {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-right:none;
+    border-color: rgb(230, 230, 230)    ;
+    border-radius: 0;
+    box-shadow: none !important;
+    outline: none;
+}
+nav.navbar form.navbar-form button:hover {
+    background: #fff;
+    color: rgb(0, 0, 0);
+}
+.form-control:focus {
+    border-color: #000000;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 768px) {
+    nav.navbar {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-header {
+        height: 60px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+/* NavBar End */
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+  }
+  .nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #000; 
+    border-bottom:1px solid rgb(238, 238, 238);   
+  }
+  .nav-sidebar > .active > a,
+  .nav-sidebar > .active > a:hover,
+  .nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+  }
+  

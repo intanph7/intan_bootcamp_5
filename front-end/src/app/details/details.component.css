@@ -1,0 +1,12 @@
+.container{
+    padding-left:90px;
+}
+.row{
+    padding-left:40px;
+}
+.breadcrumb{
+    background-color: white;
+}
+.panel{
+    border:transparent;
+}
